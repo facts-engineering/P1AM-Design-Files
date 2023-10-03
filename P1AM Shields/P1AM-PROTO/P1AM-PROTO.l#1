@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -51,7 +51,7 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -81,7 +81,7 @@
 <pad name="5" x="0" y="-10.16" drill="1"/>
 <text x="0" y="2.54" size="1.5" layer="21" ratio="10" align="bottom-center">&gt;NAME</text>
 </package>
-<package name="P1AM-PROTO-BLANK" urn="urn:adsk.eagle:footprint:41507689/5">
+<package name="P1AM-PROTO-BLANK" urn="urn:adsk.eagle:footprint:41507689/4">
 <wire x1="45.893" y1="33.915" x2="45.893" y2="69.475" width="0.254" layer="21"/>
 <wire x1="45.893" y1="69.475" x2="48.433" y2="69.475" width="0.254" layer="21"/>
 <wire x1="48.433" y1="69.475" x2="48.433" y2="33.915" width="0.254" layer="21"/>
@@ -192,6 +192,24 @@
 <wire x1="38.5191" y1="82.65155" x2="37.7571" y2="81.8794" width="0.254" layer="20"/>
 <wire x1="26.9646" y1="81.8794" x2="26.4643" y2="82.3899" width="0.254" layer="20"/>
 <wire x1="37.7571" y1="81.8794" x2="26.9646" y2="81.8794" width="0.254" layer="20"/>
+<wire x1="38.4302" y1="17.4904" x2="38.4302" y2="18.3794" width="0.254" layer="44"/>
+<wire x1="38.4302" y1="18.3794" x2="38.4302" y2="19.2684" width="0.254" layer="44"/>
+<wire x1="38.4302" y1="19.2684" x2="36.6522" y2="19.2684" width="0.254" layer="44"/>
+<wire x1="36.6522" y1="19.2684" x2="36.6522" y2="18.3794" width="0.254" layer="44"/>
+<wire x1="36.6522" y1="18.3794" x2="36.6522" y2="17.4904" width="0.254" layer="44"/>
+<wire x1="36.6522" y1="17.4904" x2="38.4302" y2="17.4904" width="0.254" layer="44"/>
+<wire x1="26.1874" y1="68.9762" x2="26.1874" y2="68.2142" width="0.254" layer="44"/>
+<wire x1="26.1874" y1="68.2142" x2="26.1874" y2="67.4522" width="0.254" layer="44"/>
+<wire x1="27.7114" y1="67.4522" x2="27.7114" y2="68.2142" width="0.254" layer="44"/>
+<wire x1="27.7114" y1="68.2142" x2="27.7114" y2="68.9762" width="0.254" layer="44"/>
+<wire x1="27.7114" y1="68.9762" x2="26.1874" y2="68.9762" width="0.254" layer="44"/>
+<wire x1="26.1874" y1="67.4522" x2="27.7114" y2="67.4522" width="0.254" layer="44"/>
+<wire x1="47.9044" y1="34.4322" x2="47.9044" y2="35.9562" width="0.254" layer="44"/>
+<wire x1="46.3804" y1="34.4322" x2="47.9044" y2="34.4322" width="0.254" layer="44"/>
+<wire x1="46.3804" y1="35.9562" x2="46.3804" y2="34.4322" width="0.254" layer="44"/>
+<wire x1="47.9044" y1="35.9562" x2="46.3804" y2="35.9562" width="0.254" layer="44"/>
+<wire x1="27.7114" y1="68.2142" x2="26.1874" y2="68.2142" width="0.254" layer="44"/>
+<wire x1="38.4302" y1="18.3794" x2="36.6522" y2="18.3794" width="0.254" layer="44"/>
 <wire x1="60.1142" y1="81.8896" x2="53.1139" y2="81.8896" width="0.254" layer="22"/>
 <wire x1="53.1139" y1="81.8896" x2="53.1139" y2="68.3895" width="0.254" layer="22"/>
 <wire x1="53.1139" y1="68.3895" x2="51.6153" y2="68.3895" width="0.254" layer="22"/>
@@ -240,28 +258,6 @@
 <wire x1="20.9144" y1="22.8904" x2="20.9144" y2="11.8897" width="0.254" layer="22"/>
 <wire x1="20.9144" y1="11.8897" x2="22.4155" y2="11.8897" width="0.254" layer="22"/>
 <wire x1="22.4155" y1="11.8897" x2="22.4155" y2="8.89" width="0.254" layer="22"/>
-<wire x1="38.4302" y1="17.4904" x2="38.4302" y2="18.3794" width="0" layer="44"/>
-<wire x1="38.4302" y1="18.3794" x2="38.4302" y2="19.2684" width="0" layer="44"/>
-<wire x1="38.4302" y1="19.2684" x2="36.6522" y2="19.2684" width="0" layer="44"/>
-<wire x1="36.6522" y1="19.2684" x2="36.6522" y2="18.3794" width="0" layer="44"/>
-<wire x1="36.6522" y1="18.3794" x2="36.6522" y2="17.4904" width="0" layer="44"/>
-<wire x1="36.6522" y1="17.4904" x2="38.4302" y2="17.4904" width="0" layer="44"/>
-<wire x1="26.1874" y1="68.9762" x2="26.1874" y2="68.2142" width="0" layer="44"/>
-<wire x1="26.1874" y1="68.2142" x2="26.1874" y2="67.4522" width="0" layer="44"/>
-<wire x1="27.7114" y1="67.4522" x2="27.7114" y2="68.2142" width="0" layer="44"/>
-<wire x1="27.7114" y1="68.2142" x2="27.7114" y2="68.9762" width="0" layer="44"/>
-<wire x1="27.7114" y1="68.9762" x2="26.1874" y2="68.9762" width="0" layer="44"/>
-<wire x1="26.1874" y1="67.4522" x2="27.7114" y2="67.4522" width="0" layer="44"/>
-<wire x1="47.9044" y1="34.4322" x2="47.9044" y2="35.9562" width="0" layer="44"/>
-<wire x1="46.3804" y1="34.4322" x2="47.9044" y2="34.4322" width="0" layer="44"/>
-<wire x1="46.3804" y1="35.9562" x2="46.3804" y2="34.4322" width="0" layer="44"/>
-<wire x1="47.9044" y1="35.9562" x2="46.3804" y2="35.9562" width="0" layer="44"/>
-<wire x1="27.7114" y1="68.2142" x2="26.1874" y2="68.2142" width="0" layer="44"/>
-<wire x1="38.4302" y1="18.3794" x2="36.6522" y2="18.3794" width="0" layer="44"/>
-<wire x1="76.962" y1="75.565" x2="76.962" y2="78.105" width="0" layer="44"/>
-<wire x1="74.422" y1="75.565" x2="76.962" y2="75.565" width="0" layer="44"/>
-<wire x1="74.422" y1="78.105" x2="74.422" y2="75.565" width="0" layer="44"/>
-<wire x1="76.962" y1="78.105" x2="74.422" y2="78.105" width="0" layer="44"/>
 <pad name="AREF" x="26.97" y="68.205" drill="1" shape="square"/>
 <pad name="A0" x="26.97" y="65.665" drill="1"/>
 <pad name="A1" x="26.97" y="63.125" drill="1"/>
@@ -365,6 +361,24 @@ PGND1
 24V</text>
 <text x="33.5" y="73.5" size="2.54" layer="21" ratio="10">TOP</text>
 <text x="42" y="73.5" size="2.54" layer="22" ratio="10" rot="MR0">Bottom</text>
+<circle x="75.692" y="73.025" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.7301" y="87.6046" radius="1.5875" width="0.254" layer="44"/>
+<circle x="75.692" y="69.215" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="65.405" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="61.595" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="57.785" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="53.975" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="50.165" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="46.355" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="42.545" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="38.735" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="34.925" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="31.115" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="27.305" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="23.495" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="19.685" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="15.875" radius="1.143" width="0.254" layer="44"/>
+<circle x="75.692" y="12.065" radius="1.143" width="0.254" layer="44"/>
 <circle x="68.4911" y="9.3726" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="67.4751" y="9.3726" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="66.4591" y="9.3726" locked="yes" radius="0.3556" width="0.01" layer="20"/>
@@ -373,6 +387,38 @@ PGND1
 <circle x="39.2811" y="9.3726" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="40.2971" y="9.3726" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="41.3131" y="9.3726" locked="yes" radius="0.3556" width="0.01" layer="20"/>
+<circle x="3.175" y="3.175" radius="1.5875" width="0.254" layer="44"/>
+<circle x="40.0812" y="18.3794" radius="0.889" width="0.254" layer="44"/>
+<circle x="42.6212" y="18.3794" radius="0.889" width="0.254" layer="44"/>
+<circle x="45.1612" y="18.3794" radius="0.889" width="0.254" layer="44"/>
+<circle x="47.7012" y="18.3794" radius="0.889" width="0.254" layer="44"/>
+<circle x="26.9494" y="35.1942" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="37.7342" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="40.2742" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="42.8142" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="45.3542" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="47.8942" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="50.4342" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="52.9742" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="55.5142" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="58.0542" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="60.5942" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="63.1342" radius="0.762" width="0.254" layer="44"/>
+<circle x="26.9494" y="65.6742" radius="0.762" width="0.254" layer="44"/>
+<circle x="3.175" y="87.6046" radius="1.5875" width="0.254" layer="44"/>
+<circle x="47.1424" y="37.7342" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="40.2742" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="42.8142" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="45.3542" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="47.8942" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="50.4342" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="52.9742" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="55.5142" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="58.0542" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="60.5942" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="63.1342" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="65.6742" radius="0.762" width="0.254" layer="44"/>
+<circle x="47.1424" y="68.2142" radius="0.762" width="0.254" layer="44"/>
 <circle x="68.4911" y="81.3816" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="67.4751" y="81.3816" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="66.4591" y="81.3816" locked="yes" radius="0.3556" width="0.01" layer="20"/>
@@ -381,72 +427,6 @@ PGND1
 <circle x="40.2971" y="81.3816" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="39.2811" y="81.3816" locked="yes" radius="0.3556" width="0.01" layer="20"/>
 <circle x="38.2651" y="81.3816" locked="yes" radius="0.3556" width="0.01" layer="20"/>
-<circle x="75.692" y="73.025" radius="1.143" width="0" layer="44"/>
-<circle x="75.7301" y="87.6046" radius="1.5875" width="0" layer="44"/>
-<circle x="75.692" y="69.215" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="65.405" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="61.595" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="57.785" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="53.975" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="50.165" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="46.355" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="42.545" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="38.735" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="34.925" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="31.115" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="27.305" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="23.495" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="19.685" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="15.875" radius="1.143" width="0" layer="44"/>
-<circle x="75.692" y="12.065" radius="1.143" width="0" layer="44"/>
-<circle x="68.4911" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="67.4751" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="66.4591" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="65.4431" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="38.2651" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="39.2811" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="40.2971" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="41.3131" y="9.3726" radius="0.3556" width="0" layer="44"/>
-<circle x="3.175" y="3.175" radius="1.5875" width="0" layer="44"/>
-<circle x="40.0812" y="18.3794" radius="0.889" width="0" layer="44"/>
-<circle x="42.6212" y="18.3794" radius="0.889" width="0" layer="44"/>
-<circle x="45.1612" y="18.3794" radius="0.889" width="0" layer="44"/>
-<circle x="47.7012" y="18.3794" radius="0.889" width="0" layer="44"/>
-<circle x="26.9494" y="35.1942" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="37.7342" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="40.2742" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="42.8142" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="45.3542" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="47.8942" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="50.4342" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="52.9742" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="55.5142" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="58.0542" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="60.5942" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="63.1342" radius="0.762" width="0" layer="44"/>
-<circle x="26.9494" y="65.6742" radius="0.762" width="0" layer="44"/>
-<circle x="3.175" y="87.6046" radius="1.5875" width="0" layer="44"/>
-<circle x="47.1424" y="37.7342" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="40.2742" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="42.8142" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="45.3542" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="47.8942" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="50.4342" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="52.9742" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="55.5142" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="58.0542" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="60.5942" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="63.1342" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="65.6742" radius="0.762" width="0" layer="44"/>
-<circle x="47.1424" y="68.2142" radius="0.762" width="0" layer="44"/>
-<circle x="68.4911" y="81.3816" radius="0.3556" width="0" layer="44"/>
-<circle x="67.4751" y="81.3816" radius="0.3556" width="0" layer="44"/>
-<circle x="66.4591" y="81.3816" radius="0.3556" width="0" layer="44"/>
-<circle x="65.4431" y="81.3816" radius="0.3556" width="0" layer="44"/>
-<circle x="41.3131" y="81.3816" radius="0.3556" width="0" layer="44"/>
-<circle x="40.2971" y="81.3816" radius="0.3556" width="0" layer="44"/>
-<circle x="39.2811" y="81.3816" radius="0.3556" width="0" layer="44"/>
-<circle x="38.2651" y="81.3816" radius="0.3556" width="0" layer="44"/>
 </package>
 <package name="2.54_14P_STACKABLE_HDR" urn="urn:adsk.eagle:footprint:41893735/2">
 <pad name="1" x="0" y="0" drill="1" shape="square"/>
@@ -467,7 +447,7 @@ PGND1
 </package>
 </packages>
 <packages3d>
-<package3d name="P1AM-PROTO-BLANK" urn="urn:adsk.eagle:package:41507691/7" type="model">
+<package3d name="P1AM-PROTO-BLANK" urn="urn:adsk.eagle:package:41507691/6" type="model">
 <packageinstances>
 <packageinstance name="P1AM-PROTO-BLANK"/>
 </packageinstances>
@@ -654,7 +634,7 @@ PGND1
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:41507691/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:41507691/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
